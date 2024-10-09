@@ -1,0 +1,6 @@
+<h1>BIENVENIDO A SISTEMA DE INVENTARIOS</h1>
+<% @user.each do |user| %>
+  Name: <%= user.user_name %><br>
+  Lastname: <%= user.user_lastname %><br>
+  Position: <%= user.user_position%><br>
+<% end %>
